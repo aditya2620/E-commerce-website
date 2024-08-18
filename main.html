@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div id="left">
+            <h2><i class="fa-brands fa-shopify fa-beat"></i>E-commerce</h2>
+        </div>
+
+        <div id="cent">
+            <ul>
+                <li><a href="#maleCont">Men</a></li>
+                <li><a href="#femaleCont">Women</a></li>
+                <li><a href="#kidCont">Kid</a></li>
+                <li><a href="#electronicCont">Electronics</a></li>
+            </ul>
+        </div>
+        <div id="cart-cont">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="count">0</span>
+        </div>
+        <div id="right">
+            <a href="./login.html"><button>Sign in</button></a>
+            <a href="./signup.html"><button>Sign up</button></a>
+        </div>
+
+    </nav>
+    <section id="search">
+        <input type="text" placeholder="search for the items">
+        <button id="searchBtn">search</button>
+        <div id="searchResult" class="design"></div>
+    </section>
+    <main>
+        <section id="maleCont" class="design"> </section>
+        <section id="femaleCont" class="design"></section>
+        <section id="kidCont" class="design"></section>
+        <section id="electronicCont" class="design"></section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
