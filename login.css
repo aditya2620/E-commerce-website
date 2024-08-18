@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 body{
     background-image: url(./images/loginimg.png);
@@ -24,15 +26,15 @@ body{
 
 }
 h3{
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: blue;
     font-weight: 300;
     text-align: center;
 }
 p{
     position: absolute;
-    margin-top: 32rem;
-    margin-right: 9rem;
+    bottom: 3rem;
+    right: 9rem;
     font-size: 1.5rem;
 }
 h1{
@@ -45,12 +47,13 @@ h2{
 }
 
 .content{
+    position: relative;
     background-color: whitesmoke;
     margin-right: 10rem;
     width: 25%;
     padding: 0rem 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    position: relative;
+    height: 30.8rem;
     border-radius: 10px;
     
 }
@@ -83,7 +86,7 @@ input:scope{
 
 button{
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     height: 10%;
     background-color: blue;
     color: white;
@@ -92,10 +95,11 @@ button{
     border-radius: 10px;
 }
 .create{
-    width: 52%;
-    margin-bottom: 3rem;
+    position: absolute;
+    width: 10%;
     background-color: green;
-    margin-left: 5rem;
+    right: 19%;
+    bottom: 22%;
 }
 
 button:active{

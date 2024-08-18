@@ -206,7 +206,6 @@ async function allProductsData() {
                 window.location.href = "./login.html";
             }
 
-           
         })
     })
 

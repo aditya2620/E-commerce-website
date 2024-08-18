@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -43,10 +44,11 @@ form{
 
 input,label,button{
     display: block;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     justify-content: center;
     font-size: 18px;
     margin-left: 2.5rem;
+    margin-bottom: 0rem;
 }
 
 input{
@@ -63,6 +65,7 @@ button{
     border: none;
     padding: 0.5 rem 0rem;
     width: 40%;
+    margin-bottom: 0.5rem;
     
 }
 
@@ -71,6 +74,6 @@ button:active{
 }
 
 span{
-   text-align: center;
+   /* text-align: center; */
     color: red;
 }
