@@ -20,6 +20,7 @@ nav{
 }
 .fa-brands{
     font-size: 2rem;
+    color: crimson;
 }
 #left>h2{
     color: blueviolet;
@@ -74,10 +75,13 @@ nav{
     justify-content: space-between;
     gap: 2rem;
     padding: 1rem;
+    background-color: aquamarine;
+    /* transition-duration: 1ms;
+    transform: translateY(2); */
 }
 
 main{
-    padding: 0rem 4rem;
+    /* padding: 0rem 4rem; */
 
 }
 .design > div{
@@ -124,10 +128,9 @@ main{
 
 /** search results details*/
 #search{
-    /* background-color: lightslategrey; */
+    background-color: lightslategrey;
     text-align: center;
-    margin-top: -1.2rem;
-    /* margin-bottom: 0rem; */
+    margin-top: 0rem;
     position: sticky;
     top: 7.2%;
 }
