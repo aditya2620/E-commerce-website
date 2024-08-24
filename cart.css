@@ -61,5 +61,23 @@ button:active{
     color: black;
 }
 
+footer{
+    margin: auto;
+    width: 80%;
+    padding: 1rem;
+}
+
+footer>button{
+    height: 2.5rem;
+    width: 30%;
+    border: none;
+    margin-left: 25rem;
+    background-color: darkgreen;
+}
+footer>button:active{
+    background-color: black;
+    color: antiquewhite;
+}
+
 
 

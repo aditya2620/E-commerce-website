@@ -178,9 +178,8 @@ async function allProductsData() {
             // console.log(product);
             //*clicked product added to cart
             cartItems.push(product)
-            // console.log(cartItems)
             oneuser.cartItems = cartItems;
-            // console.log(oneuser);
+            console.log(oneuser);
 
         //& storing data in one local storage
             localStorage.setItem("one_user",JSON.stringify(oneuser))
@@ -211,5 +210,13 @@ async function allProductsData() {
 
 }
 allProductsData();
+
+/*
+let cartIcon = document.querySelector(".fa-cart-shopping");
+
+cartIcon.addEventListener((e)=>{
+    window.location.href = "./cart.html"
+})
+    */
 
 
