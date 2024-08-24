@@ -69,7 +69,7 @@ h3.addEventListener("click",()=>{
 /*
 let btn =  document.getElementsByClassName("create");
 btn.addEventListener("click",(e)=>{
-    window.location.href = "./signup.html"
+    window.location.href = "./index.html"
     e.stopPropagation();
 })
     */
