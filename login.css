@@ -41,7 +41,7 @@ h1{
     font-size: 3.5rem;
     color: blue;
 }
-h2{
+pre{
     font-size: 2rem;
     font-weight: 100;
 }
@@ -80,9 +80,6 @@ input{
     border-radius: 10px;
     
 }
-input:scope{
-    border: 2px solid blue;
-}
 
 button{
     width: 100%;
@@ -108,4 +105,52 @@ button:active{
 span{
     color: red;
 }
+
+@media (max-width:600px){
+   
+    section >.content{
+        margin-top: 26rem;
+        width: 60%;
+    }
+    body{
+       height: 100vh;
+    }
+    .left{
+        margin-left: 1rem;
+        margin-top: 7rem;
+    }
+    .right>p{
+        margin-left: 6rem;
+    }
+    .create{
+        margin-right: 11rem;
+        width: 25%;
+    }
+ }
+ 
+ @media (min-width:601px ) and (max-width:1000px){
+    section >.content{
+        margin-top: 20rem;
+        width: 40%;
+    }
+    body{
+       height: 100vh;
+    }
+    .left{
+        margin-left: 1rem;
+        margin-top: 7rem;
+    }
+    .right>p{
+        margin-left: 6rem;
+        margin-bottom: 9rem;
+    }
+    .create{
+        margin-right: 6rem;
+        width: 20%;
+        margin-bottom: 2rem;
+    }
+ 
+    
+ }
+ 
 
